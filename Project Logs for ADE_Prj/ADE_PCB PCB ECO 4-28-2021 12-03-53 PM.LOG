@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=TB?-P1_1
+Removed Pin From Net: NetName=3V Pin=TB?-P1_3
+Removed Pin From Net: NetName=LCD_RST Pin=TB?-P1_13
+Removed Pin From Net: NetName=LCD_SCLK Pin=TB?-P1_15
+Removed Pin From Net: NetName=LCD_CE Pin=TB?-P1_16
+Removed Pin From Net: NetName=LCD_DIN Pin=TB?-P1_17
+Removed Pin From Net: NetName=LCD_DC Pin=TB?-P1_18
+Removed Member From Class: ClassName=LCD_Keypad Member=TB?
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=P? NewDesignator=P4
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Added Component: Designator=P9(HDR2X25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P10(HDR2X25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=LCD_Keypad Member=Component P3 LCD5110
+Added Member To Class: ClassName=LCD_Keypad Member=Component P9 Header 25X2
+Added Member To Class: ClassName=LCD_Keypad Member=Component P10 Header 25X2
+Added Room: Name=ADE_Sche
+Added Room: Name=LCD_Keypad

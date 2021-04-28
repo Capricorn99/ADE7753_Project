@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=LCD_RST Pin=P3-1
+Removed Pin From Net: NetName=LCD_CE Pin=P3-2
+Removed Pin From Net: NetName=LCD_DC Pin=P3-3
+Removed Pin From Net: NetName=LCD_DIN Pin=P3-4
+Removed Pin From Net: NetName=LCD_SCLK Pin=P3-5
+Removed Pin From Net: NetName=3V Pin=P3-6
+Removed Pin From Net: NetName=GND Pin=P3-8
+Removed Pin From Net: NetName=LCD_CE Pin=R8-1
+Removed Pin From Net: NetName=3V Pin=R8-2
+Removed Member From Class: ClassName=ADE_Sche Member=P3
+Removed Member From Class: ClassName=ADE_Sche Member=P4
+Removed Member From Class: ClassName=ADE_Sche Member=R8
+Added Component: Designator=P?(Keypad 4x4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P?(LCD 5110)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(AXIAL-0.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=TB?(MODULE_STM32F4DISCOVERY)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STM32F4DISCOVERY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/STM32F4DISCOVERY/STMicroelectronics/view-part/46335/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LCD_RST Pin=P?-1
+Added Pin To Net: NetName=LCD_CE Pin=P?-2
+Added Pin To Net: NetName=LCD_DC Pin=P?-3
+Added Pin To Net: NetName=LCD_DIN Pin=P?-4
+Added Pin To Net: NetName=LCD_SCLK Pin=P?-5
+Added Pin To Net: NetName=3V Pin=P?-6
+Added Pin To Net: NetName=GND Pin=P?-8
+Added Pin To Net: NetName=LCD_CE Pin=R?-1
+Added Pin To Net: NetName=3V Pin=R?-2
+Added Pin To Net: NetName=GND Pin=TB?-P1_1
+Added Pin To Net: NetName=3V Pin=TB?-P1_3
+Added Pin To Net: NetName=LCD_RST Pin=TB?-P1_13
+Added Pin To Net: NetName=LCD_SCLK Pin=TB?-P1_15
+Added Pin To Net: NetName=LCD_CE Pin=TB?-P1_16
+Added Pin To Net: NetName=LCD_DIN Pin=TB?-P1_17
+Added Pin To Net: NetName=LCD_DC Pin=TB?-P1_18
+Added Class: Name=LCD_Keypad
+Added Room: Name=ADE_Sche
+Added Room: Name=LCD_Keypad
